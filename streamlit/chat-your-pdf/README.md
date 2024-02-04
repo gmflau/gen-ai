@@ -31,6 +31,9 @@ gcloud builds submit --tag gcr.io/$PROJECT_ID/glau-chat-your-pdfs-streamlit-app
 ```
      
 2) Deploy to Cloud Run
+Note:    
+GCP_PROJECT_ID: Google Project for Vertex AI APIs    
+GCP_LOCATION: Region for the Vertex AI APIs    
 ```
 gcloud run deploy glau-chat-your-pdfs-streamlit-app \
 --image gcr.io/$PROJECT_ID/glau-chat-your-pdfs-streamlit-app \
