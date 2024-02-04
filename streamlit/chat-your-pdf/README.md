@@ -56,7 +56,7 @@ Example output:
 Service URL: https://glau-chat-your-pdfs-streamlit-app-t5a5vybtpq-uc.a.run.app
 ```
    
-4) To view the full response time and cache response time in Cloud Run's LOGS window
+4) To view the full response time and cache response time in Cloud Run's LOGS window    
 Apply the filter **Response  Time (secs)**:
 ![Cloud Run LOGS](./img/cloudRunLogs.png)
 
